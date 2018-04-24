@@ -1,5 +1,4 @@
-// Code goes here
-
+"use strict";
 
 // DOM variables
 let title = document.getElementById('doc-title'),
@@ -7,8 +6,7 @@ let title = document.getElementById('doc-title'),
     roundOutput = document.getElementById('round-results'),
     floorOutput = document.getElementById('floor-results');
 
-console.log(title);
-//
+// Variables to choose the amount of random numbers.
 let totalRand = 5; // Total random numbers, counting from 0
 let loops = 50000;
 
